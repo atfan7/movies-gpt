@@ -3,6 +3,7 @@ import Header from './Header'
 import { checkValidateData } from '../utils/validate';
 import { createUserWithEmailAndPassword,signInWithEmailAndPassword,updateProfile } from "firebase/auth";
 import { auth } from '../utils/firebase';
+import { BG_URL } from '../utils/constants';
 
 
 
@@ -99,7 +100,7 @@ const Login = () => {
 
         <Header/>
         <div className='absolute'>
-            <img src='https://assets.nflxext.com/ffe/siteui/vlv3/0b0dad79-ad4d-42b7-b779-8518da389976/web/IN-en-20250908-TRIFECTA-perspective_0647b106-80e1-4d25-9649-63099752b49a_large.jpg' alt="netflix-image"/>
+            <img src={BG_URL} alt="netflix-image"/>
 
         </div>
 
