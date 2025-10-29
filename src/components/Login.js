@@ -101,7 +101,7 @@ const Login = () => {
 
         <Header/>
         <div className='absolute'>
-            <img className='h-screen object-cover' src={BG_URL} alt="netflix-image"/>
+            <img className='w-screen h-screen object-cover' src={BG_URL} alt="netflix-image"/>
 
         </div>
 
