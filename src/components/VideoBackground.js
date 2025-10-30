@@ -9,7 +9,7 @@ const VideoBackground = (movieID) => {
     const getMovieVideos =({movieId})=>{
 
 
-       fetch("https://api.themoviedb.org/2/movie/" + movieId + "/videos?language=en-US", API_OPTIONS)
+       fetch("https://api.themoviedb.org/3/movie/" + movieId + "/videos?language=en-US", API_OPTIONS)
 
        .then(res => res.json())
        .then(data => {
