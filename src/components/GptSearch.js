@@ -7,7 +7,7 @@ const GptSearch = () => {
   return (
     <div>
       <div className='fixed -z-10'>
-            <img className="h-screen object-cover" src={BG_URL} alt="netflix-image"/>
+            <img className=" w-screen h-screen object-cover" src={BG_URL} alt="netflix-image"/>
 
         </div>
 
